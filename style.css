@@ -1,0 +1,150 @@
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family:  Helvetica;
+}
+.wrapper{
+    background-color: aliceblue;
+}
+/* .container{
+    max-width:1170px;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 0px auto;
+} */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    background-color: aliceblue;
+}
+
+header nav img{
+    width:82px;
+    height:82px;
+    border-radius: 50%;
+}
+
+
+header .nav-bar{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+}
+
+header .nav-bar a{
+    display:block;
+    text-decoration: none;
+    font-size: 22px;
+    margin:0px 20px;
+    color:#697f86;
+    letter-spacing: 2px;;
+}
+
+.hero-section img{
+    width:100%;
+   
+}
+.hero-section{
+    position:relative;
+    height:80vh;
+    overflow: hidden;
+   
+}
+
+.hero-section .hero-contents{
+    position:absolute;
+    top:0;
+    bottom:0;
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+    background-color:aliceblue;
+  
+}
+.hero-contents h1{
+    margin-bottom:20px;
+    letter-spacing: 2px;
+    color:#697f86
+}
+.hero-contents p{
+    line-height: 30px;
+    font-size: 18px;
+    color:rgb(170, 169, 169);
+
+}
+.gallery-section{
+
+  padding:50px;
+}
+.gallery-section h1{
+    color:#697f86;
+    font-size: 30px;
+    padding:20px;
+   
+}
+
+.gallery-section .gallery-list{
+    width:1200px;
+    list-style: none;
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+  
+     
+.gallery-section .gallery-list {
+    flex:1 1 200px;
+  }
+  
+.gallery-section .gallery-list div img{
+    width:100%;
+}
+.gallery-section .gallery-section-info{
+    display:flex;
+    align-items: center;
+}
+    
+.gallery-section .gallery-section-info aside{
+    width: 700px;
+    background-color: rgba(163, 199, 77, 0.5);
+    padding:100px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    box-shadow: 5px 5px 5px rgb(38, 64, 69);
+    
+
+}  
+.gallery-section .gallery-section-info aside h4{
+
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:rgb(88, 86, 86)
+}
+.gallery-section .gallery-section-info aside p{
+    font-size: 18px;
+    line-height:50px;
+    color:#7b7d7d
+    
+}
+
+
+
+
+    
+    
+    
+    
+    
+   
